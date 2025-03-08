@@ -1,6 +1,5 @@
 package gogeBasis
 
-type warning struct {
+type Warning struct {
 	message string
-	line    int
 }
