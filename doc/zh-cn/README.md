@@ -4,6 +4,5 @@
 
 ## 文档  
 
-`type warning struct`一个警告结构，用于记录警告信息，它的子项为：  
-- `message`警告信息
-- `line`警告所在的行
+`type Warning struct`一个警告结构，用于记录警告信息，它的子项为：  
+- `Message`警告信息
