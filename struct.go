@@ -1,6 +1,6 @@
 package gogeBasis
 
-type Warinng interface {
+type Warning interface {
 	// A struct of Error
 	Warning() string
 }
@@ -14,11 +14,11 @@ func (w *warning) Warning() string {
 	return w.message
 }
 
-func NewWarning(warningMessage string) Warinng {
+func NewWarning(warningMessage string) Warning {
 	return &warning{warningMessage}
 }
 
-func ReturnWarningForTest() Warinng {
+func ReturnWarningForTest() Warning {
 	warn := NewWarning("This is a warning message")
 	return warn
 }
