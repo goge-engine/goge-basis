@@ -6,7 +6,7 @@
 <div align="center">
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-0.2.0-green.svg)](version)
+[![Version](https://img.shields.io/badge/version-0.2.1-green.svg)](version)
 
 </div>
 
